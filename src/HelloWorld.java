@@ -1,13 +1,13 @@
 public class HelloWorld {
-    public static void PrintHelloWorld() {
+    public static void printHelloWorld() {
         System.out.println("Hello World!");
     }
 
-    public static void PrintHelloMichael () {
+    public static void printHelloMichael() {
         System.out.println("Hello Michael!");
     }
 
-    public static void CodeComments () {
+    public static void codeComments() {
         System.out.println("Hello Java!");
 
         System.out.println("You were born in 1995");
@@ -21,5 +21,12 @@ public class HelloWorld {
         His favorite number is the square root of 2!
          */
         System.out.println("You are a fun language!");
+
+
+        //Java uses camelCase for most variables and methods.
+
+        //Class and interface names use PascalCase.
+
+        //Constants use UPPER_SNAKE_CASE. 
     }
 }
